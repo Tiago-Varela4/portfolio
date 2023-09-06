@@ -38,10 +38,23 @@ nav {
 }
 
 .plan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
     background-color: #34C597;
+}
+
+.plan img{
+  width: 80%;
+  border: 1rem;
+}
+.image1 {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+ 
 }
 
 .connection {
@@ -68,6 +81,10 @@ footer {
   }
   .plan {
     display: grid;
-
+    grid-template-columns: repeat(3, 1fr);
+  }
+  body {
+    font-size: 24px;
   }
 }
+
