@@ -28,7 +28,6 @@ body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
     font-weight: bolder;
     padding: 1rem;
-
 }
 
 nav {
@@ -46,7 +45,6 @@ nav {
     background-color: #34C597;
 }
 
-
 .plan img {
     width: 80%;
     border: 1rem;
@@ -60,7 +58,6 @@ nav {
     padding: 2rem;
 
 }
-
 .title {
   padding: 1rem;
 }
@@ -71,7 +68,6 @@ nav {
     gap: 1.3rem;
 
 }
-
 footer {
     background-color: #3D9CCB;
     padding: 1rem;
