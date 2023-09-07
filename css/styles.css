@@ -56,8 +56,8 @@ nav {
     align-items: center;
     text-align: center;
     padding: 2rem;
-
 }
+
 .title {
   padding: 1rem;
 }
@@ -66,8 +66,8 @@ nav {
     display: flex;
     align-content: space-around;
     gap: 1.3rem;
-
 }
+
 footer {
     background-color: #3D9CCB;
     padding: 1rem;
