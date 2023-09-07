@@ -26,6 +26,8 @@ body {
     height: auto;
     color: #FDFEFE;
     font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 1rem;
 
 }
 
@@ -44,17 +46,23 @@ nav {
     background-color: #34C597;
 }
 
-.plan img{
-  width: 80%;
-  border: 1rem;
+
+.plan img {
+    width: 80%;
+    border: 1rem;
 }
+
 .image1 {
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.title {
+  padding: 1rem;
 }
 
 .connection {
@@ -65,26 +73,29 @@ nav {
 }
 
 footer {
-    background-color: #5CB9DB;
+    background-color: #3D9CCB;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 490px) {
-  .container {
-    width: 100%;
-    padding-right: 1rem;
-    display:flex;
-    justify-content: flex-end;
-    position: fixed;
-  }
-  nav {
-    gap: 1rem;
-  }
-  .plan {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  body {
-    font-size: 24px;
-  }
-}
+    .container {
+        width: 100%;
+        padding-right: 1rem;
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+    }
 
+    nav {
+        gap: 1rem;
+    }
+
+    .plan {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
+}
