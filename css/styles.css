@@ -42,7 +42,7 @@ nav {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr;
-    background-color: #34C597;
+    background-color: #3B6F8F;
 }
 
 .plan img {
@@ -69,7 +69,7 @@ nav {
 }
 
 footer {
-    background-color: #3D9CCB;
+    background-color: #08ceab;
     padding: 1rem;
 }
 
